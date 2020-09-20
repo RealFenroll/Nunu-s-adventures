@@ -1,27 +1,28 @@
-﻿using Newtonsoft.Json;
-using Nunu_s_Adventures.Adventures;
+﻿using Nunu_s_Adventures.Adventures.Interfaces;
+using Nunu_s_Adventures.Entities.Interfaces;
 using System;
-using System.IO;
 
 namespace Nunu_s_Adventures.Game
 {
     public class GameService
     {
+        private IAdventureService adventureService;
+        private ICharacterService characterService;
+        
+        public GameService(IAdventureService AdventureService, ICharacterService CharacterService)
+        {
+            adventureService = AdventureService;
+            characterService = CharacterService;
+        }
         public void StartGame()
         {
-            var basePath = $"{AppDomain.CurrentDomain.BaseDirectory}adventures";
-            var initialAdventure = new Adventure();
+            var initialAdventure = adventureService.GetInitialAdventure();
+            var initialCharacter = characterService.LoadInitialCharacter();
 
-            if (File.Exists($"{basePath}\\Initial.json"))
-            {
-                var directory = new DirectoryInfo(basePath);
-                var initialJsonFile = directory.GetFiles("Initial.json");
-
-                using StreamReader fi = File.OpenText(initialJsonFile[0].FullName);
-                initialAdventure = JsonConvert.DeserializeObject<Adventure>(fi.ReadToEnd());
-                Console.WriteLine($"Adventure : {initialAdventure.Title}");
-                Console.WriteLine($"Description : {initialAdventure.Description}");
-            }
+            Console.WriteLine($"Adventure : {initialAdventure.Title}");
+            Console.WriteLine($"Description : {initialAdventure.Description}");
+            Console.WriteLine($"Name : {initialCharacter.Name}");
+            Console.WriteLine($"Description : {initialCharacter.Description}");
         }
     }
 }

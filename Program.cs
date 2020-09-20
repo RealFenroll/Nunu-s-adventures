@@ -1,11 +1,15 @@
-﻿using Nunu_s_Adventures.Game;
+﻿using Nunu_s_Adventures.Adventures;
+using Nunu_s_Adventures.Entities;
+using Nunu_s_Adventures.Game;
 using System;
 
 namespace Nunu_s_Adventures
 {
     class Program
     {
-        private static GameService gameService = new GameService();
+        private static AdventureService adventureService = new AdventureService();
+        private static CharacterService characterService = new CharacterService();
+        private static GameService gameService = new GameService(adventureService, characterService);
         static void Main(string[] args)
         {
             TitleScreen();
