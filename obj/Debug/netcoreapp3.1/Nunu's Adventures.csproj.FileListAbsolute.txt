@@ -1,0 +1,15 @@
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\obj\Debug\netcoreapp3.1\Nunu's Adventures.AssemblyInfoInputs.cache
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\obj\Debug\netcoreapp3.1\Nunu's Adventures.AssemblyInfo.cs
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\bin\Debug\netcoreapp3.1\Nunu's Adventures.exe
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\bin\Debug\netcoreapp3.1\Nunu's Adventures.deps.json
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\bin\Debug\netcoreapp3.1\Nunu's Adventures.runtimeconfig.json
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\bin\Debug\netcoreapp3.1\Nunu's Adventures.runtimeconfig.dev.json
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\bin\Debug\netcoreapp3.1\Nunu's Adventures.dll
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\bin\Debug\netcoreapp3.1\Nunu's Adventures.pdb
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\obj\Debug\netcoreapp3.1\Nunu's Adventures.csprojAssemblyReference.cache
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\obj\Debug\netcoreapp3.1\Nunu's Adventures.dll
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\obj\Debug\netcoreapp3.1\Nunu's Adventures.pdb
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\obj\Debug\netcoreapp3.1\Nunu's Adventures.genruntimeconfig.cache
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\obj\Debug\netcoreapp3.1\Nunu's Adventures.csproj.CoreCompileInputs.cache
+C:\Users\Fenroll\Desktop\Utilities\C#\Nunu's Adventures\obj\Debug\netcoreapp3.1\Nunu's Adventures.csproj.CopyComplete

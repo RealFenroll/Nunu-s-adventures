@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TRqxJ2rTpzHV9SBZcKc73QXZ8zlWRlumqsBS6AcYUgNbQ591vZiCPpCaNOKqPnE1R81rjie2BT5ddJgyUXegQA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fenroll\\Desktop\\Utilities\\C#\\Nunu's Adventures\\Nunu's Adventures.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fenroll\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
