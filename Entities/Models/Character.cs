@@ -9,6 +9,7 @@ namespace Nunu_s_Adventures.Entities.Models
     public class Character
     {
         public string Name;
+        public string Password;
         public int Level;
         public Abilities Abilities;
         public int Gold;

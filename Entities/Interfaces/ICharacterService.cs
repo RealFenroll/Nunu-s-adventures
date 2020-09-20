@@ -7,6 +7,6 @@ namespace Nunu_s_Adventures.Entities.Interfaces
 {
     public interface ICharacterService
     {
-        public Character LoadInitialCharacter();
+        public Character LoadInitialCharacter(string name);
     }
 }

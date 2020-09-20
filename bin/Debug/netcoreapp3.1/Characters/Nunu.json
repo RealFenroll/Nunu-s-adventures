@@ -1,7 +1,1 @@
-{
-"Name" : "Nunu",
-"Description" : "A boy",
-"Level": 1,
-"Gold" : 0,
-"HitPoints" : 4,
-}
+{"Name":"Nunu","Password":"Nunu","Level":69,"Abilities":null,"Gold":0,"InventoryWeight":0,"AdventuresPlayed":null,"IsAlive":false,"Inventory":null,"HitPoints":0,"Description":null}

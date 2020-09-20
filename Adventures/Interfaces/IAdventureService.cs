@@ -1,7 +1,10 @@
-﻿namespace Nunu_s_Adventures.Adventures.Interfaces
+﻿using System.Collections.Generic;
+
+namespace Nunu_s_Adventures.Adventures.Interfaces
 {
     public interface IAdventureService
     {
-        Adventure GetInitialAdventure();
+        public Adventure LoadAdventure(string name);
+
     }
 }
